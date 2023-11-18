@@ -17,3 +17,10 @@ time = array2.map(xAxis => ({
 
 console.log(JSON.stringify(time))
 // [{"Date":"01/01/2019","Time":" 00:00"},{"Date":"01/01/2019","Time":" 01:00"},{"Date":"01/01/2019","Time":" 02:00"},{"Date":"01/01/2019","Time":" 03:00"},{"Date":"01/01/2019","Time":" 04:00"},{"Date":"01/01/2019","Time":" 05:00"}]
+
+
+// You can initialize a new array with a set of values using this syntax, which first
+// initializes an array of 12 elements, and fills each element with the 0 number:
+const arr = Array(12).fill(0)
+console.log(arr)
+
